@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import Beers from './beers'
-import List from './List'
+// import List from './List'
 
 import './App.css';
 
@@ -32,7 +32,7 @@ class App extends Component{
       return (
       <div className="App">
         <Beers beers={this.state.beers}/>
-        <List list={this.state.beers}/>
+        {/* <List list={this.state.beers}/> */}
       </div>
     );
   }
